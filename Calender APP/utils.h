@@ -120,7 +120,7 @@ namespace utils {
 		{
 			for (size_t i = 1; i < choosenMonth; i++)
 			{
-				totalDaysTillThisDay += utils::numOfDaysInAMonth(choosenMonth, choosenYear);
+				totalDaysTillThisDay += utils::numOfDaysInAMonth(i, choosenYear);
 			}
 			totalDaysTillThisDay += choosenDay;
 			cout << "Number of days passed from " << to_string(choosenYear) << ": " << to_string(totalDaysTillThisDay) << endl;
